@@ -7,7 +7,7 @@
 def key_for_min_value(hash)
     #hash.sort_by { |key, value| [-value, key] }
   # is value greater or less than the value that preceded it?
-    lowest 
+    lowest
     hash.each do [key, value]
       if
 end
