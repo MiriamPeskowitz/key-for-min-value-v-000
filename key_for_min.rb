@@ -3,7 +3,7 @@ def key_for_min_value(hash)
     #hash.sort_by { |key, value| [-value, key] }
     lowest_key = ""
     lowest_value= ""
-    hash.each do [key, value]
+    hash.each do |key, value|
         if value < lowest
           lowest_value<<value
         end
