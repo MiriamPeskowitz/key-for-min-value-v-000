@@ -4,9 +4,6 @@ def key_for_min_value(hash)
     lowest_key = ""
     lowest_value= ""
     hash.each do [key, value]
-
-      lowest = value
-      
         if value < lowest
           lowest_value<<value
         end
