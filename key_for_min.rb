@@ -1,10 +1,9 @@
 
 def key_for_min_value(hash)
-    #hash.sort_by { |key, value| [-value, key] }
     lowest_key = nil
     lowest_value= nil
     hash.each do |key, value|
-        if lowest_key > value
+        if lowest_value > value
           lowest_value<<value
         end
       end
