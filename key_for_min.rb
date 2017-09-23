@@ -1,12 +1,14 @@
 
 def key_for_min_value(hash)
     #hash.sort_by { |key, value| [-value, key] }
-    lowest = ""
+    lowest_key = ""
+    lowest_value= ""
     hash.each do [key, value]
 
       lowest = value
+      
         if value < lowest
-          lowest<<value
+          lowest_value<<value
         end
       end
     return key
